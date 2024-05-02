@@ -1,8 +1,43 @@
+<div class="mx-auto max-w-screen-sm py-8 px-2 print:py-0 px-0">
+
+<div class="flyer">
+<h1 class="text-center font-bold text-2xl mb-4">You are invited to:</h1>
+<h2 class="text-center font-bold text-3xl mb-4">MOUNT NOD RESIDENTS’ ASSOCIATION</h2>
+<h2 class="text-center font-bold text-3xl mb-4"><span class="underline">ANNUAL GENERAL MEETING</span></h2>
+<p class="text-center font-bold text-3xl mb-4">Thursday 6th June 2024</p>
+<p class="text-center font-bold text-3xl mb-4">7:30pm</p>
+<p class="text-center font-bold text-3xl mb-4">Mount Nod Primary School </p>
+
+<div class="px-6">
+<div class="mb-4">
+
+<p>The committee will give a report of the last year, information about the defibrillator, and will discuss the future of the association.</p>
+<p class="font-bold">Also present will be our local councillors who will give a report and answer questions.</p>
+
+</div>
+
+
+
+<p>All members of the association have access to the equipment listed on the reverse of this notice.</p>
+<p class="font-bold">Membership to the association costs £2 a year. You can join and receive your membership card:</p>
+<ul class="list-outside ml-6 list-disc mb-4">
+<li>At the AGM</li>
+<li>At the Vale, Nod Rise, Sat 15th June 1:00-3:00pm</li>
+<li>At the Vale, Nod Rise, Mon 17th June 7:00-9:00pm</li>
+<li>When an association collector visits your house in the next few months</li>
+</ul>
+<p class="text-center font-bold">THE ASSOCIATION DESPERATELY NEEDS NEW COLLECTORS, CUSTODIANS AND COMMITTEE MEMBERS, PLEASE CONTACT US IF YOU ARE INTERESTED IN JOINING.</p>
+<p class="text-center font-bold uppercase">WITHOUT NEW VOLUNTEERS THE ASSOCIATION will be unable TO CONTINUE IN ITS CURRENT FORM.</p>
+</div>
+</div>
+
+<div class="page-break mb-16 print:mb-0"></div>
+
 <h1 class="text-center font-bold text-lg mb-1">EQUIPMENT LIST</h1>
 <p class="text-center mb-1">Available for use by all members free of charge on the Mount Nod Estate only</p>
 <p class="text-center mb-3">The number denotes the custodian for the item. These are listed on your membership card.</p>
 
-<div class="grid grid-cols-2 gap-4 px-4">
+<div class="grid sm:grid-cols-2 print:grid-cols-2 gap-4 px-4 mx-auto max-w-sm sm:max-w-full print:max-w-none">
 <div>
 <table class="equipment"><caption>Ladders</caption>
 <tr><td>20’ Double Ladders	</td><td>12</td></tr>
@@ -80,34 +115,6 @@
 <p class="text-center mt-2">We ask all who use the equipment to treat it as if it was their own and return it promptly in a clean condition ready for the next user.</p>
 
 
-<div class="page-break"></div>
-<div class="flyer">
-<h1 class="text-center font-bold text-2xl mb-4">You are invited to:</h1>
-<h2 class="text-center font-bold text-3xl mb-4">MOUNT NOD RESIDENTS’ ASSOCIATION</h2>
-<h2 class="text-center font-bold text-3xl mb-4"><span class="underline">ANNUAL GENERAL MEETING</span></h2>
-<p class="text-center font-bold text-3xl mb-4">Thursday 6th June 2024</p>
-<p class="text-center font-bold text-3xl mb-4">7:30pm</p>
-<p class="text-center font-bold text-3xl mb-4">Mount Nod Primary School </p>
-
-<div class="px-6">
-<div class="mb-4">
-
-<p>The committee will give a report of the last year, information about the defibrillator, and will discuss the future of the association.</p>
-<p class="font-bold">Also present will be our local councillors who will give a report and answer questions.</p>
-
-</div>
 
 
-
-<p>All members of the association have access to the equipment listed on the reverse of this notice.</p>
-<p class="font-bold">Membership to the association costs £2 a year. You can join and receive your membership card:</p>
-<ul class="list-outside ml-6 list-disc mb-4">
-<li>At the AGM</li>
-<li>At the Vale, Nod Rise, Sat 15th June 1:00-3:00pm</li>
-<li>At the Vale, Nod Rise, Mon 17th June 7:00-9:00pm</li>
-<li>When an association collector visits your house in the next few months</li>
-</ul>
-<p class="text-center font-bold">THE ASSOCIATION DESPERATELY NEEDS NEW COLLECTORS, CUSTODIANS AND COMMITTEE MEMBERS, PLEASE CONTACT US IF YOU ARE INTERESTED IN JOINING.</p>
-<p class="text-center font-bold uppercase">WITHOUT NEW VOLUNTEERS THE ASSOCIATION will be unable TO CONTINUE IN ITS CURRENT FORM.</p>
-</div>
 </div>
