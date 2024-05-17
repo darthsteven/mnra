@@ -3,21 +3,42 @@
 @tailwind utilities;
 
 html {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 30px;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@media print {
+  html {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 .flyer {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
+}
+@media print {
+  .flyer {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
 .equipment {
-font-size: 13px;
+  font-size: 18px;
+  line-height: 22px;
   width: 100%;
   @apply mb-6;
-  line-height: 17px;
+  
+}
+
+@media print {
+  .equipment {
+    font-size: 13px;
+    line-height: 17px;
+  }
 }
 
 .equipment caption {
