@@ -98,11 +98,11 @@
                 <caption>Car maintenance</caption>
                 <tr>
                     <td>Axle Stand</td>
-                    <td>7</td>
+                    <td>5</td>
                 </tr>
                 <tr>
                     <td>Trolley Jack</td>
-                    <td>7</td>
+                    <td>5</td>
                 </tr>
             </table>
         </div>
