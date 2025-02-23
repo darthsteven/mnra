@@ -53,7 +53,7 @@
                     <td>13</td>
                 </tr>
                 <tr>
-                    <td>Heavy Duty Hammer Drill</td>
+                    <td>Heavy Duty Hammer Drill - SDS</td>
                     <td>8</td>
                 </tr>
                 <tr>
