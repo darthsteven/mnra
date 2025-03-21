@@ -1,4 +1,8 @@
-<div class="mx-auto max-w-screen-sm py-8 px-2 print:py-0 px-0">
+<script>
+    import Agenda from "../components/Agenda.svelte";
+</script>
+
+<div class="mx-auto py-8 px-2 print:py-0 px-0">
     <h1 class="text-center font-bold text-lg mb-1">EQUIPMENT LIST</h1>
     <p class="text-center mb-1">Available for use by all members free of charge on the Mount Nod Estate only</p>
     <p class="text-center mb-3">The number denotes the custodian for the item. These are listed on your membership
