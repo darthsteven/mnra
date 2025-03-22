@@ -1,8 +1,5 @@
 <script>
-  import loadEquipment from '$lib/dataLoader.js';
-  let equipmentList = [];
-
-  loadEquipment().then(data => equipmentList = data);
+  export let data;
 </script>
 
 <h1>Equipment List</h1>
@@ -12,7 +9,7 @@
     <th>Title</th>
     <th>Category</th>
   </tr>
-  {#each equipmentList as item}
+  {#each data.equipment as item}
     <tr>
       <!-- <td><img src={item.image} alt={item.title} width="50" /></td> -->
       <td><a href={"/list/" + item.slug}>{item.title}</a></td>
