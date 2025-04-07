@@ -31,7 +31,6 @@ html {
   line-height: 22px;
   width: 100%;
   @apply mb-6;
-  
 }
 
 @media print {
@@ -50,6 +49,12 @@ html {
 .equipment td {
   @apply border;
   @apply border-gray-800;
+  @apply py-0.5;
+}
+@media print {
+  .equipment td {
+    @apply !py-0;
+  }
 }
 .equipment td:last-child {
   @apply border-l-0;
