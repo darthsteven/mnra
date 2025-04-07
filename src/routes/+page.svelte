@@ -96,7 +96,7 @@
                     <td>5, 19</td>
                 </tr>
                 <tr>
-                    <td>Tile Cutter</td>
+                    <td>Manual Tile Cutter</td>
                     <td>5</td>
                 </tr>
             </table>
