@@ -2,6 +2,10 @@
     import Agenda from "../components/Agenda.svelte";
 </script>
 
+<svelte:head>
+  <title>Mount Nod Residents Association</title>
+</svelte:head>
+
 <div class="mx-auto py-8 px-2 print:py-0 px-0 sm:max-w-3xl print:max-w-none">
     <h1 class="text-center font-bold text-3xl mb-4 print:hidden">MOUNT NOD RESIDENTS’ ASSOCIATION</h1>
     <a name="equipment">
