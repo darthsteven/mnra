@@ -240,32 +240,34 @@
         <h1 class="text-center font-bold text-2xl mb-4">You are invited to:</h1>
         <h2 class="text-center font-bold text-3xl mb-4">MOUNT NOD RESIDENTS’ ASSOCIATION</h2>
         <h2 class="text-center font-bold text-3xl mb-4"><span class="underline">ANNUAL GENERAL MEETING</span></h2>
-        <!-- <p class="text-center font-bold text-3xl mb-4">Thursday 15th May 2025</p> -->
-        <!-- <p class="text-center font-bold text-3xl mb-4">7:30pm</p> -->
-        <!-- <p class="text-center font-bold text-3xl mb-4">Mount Nod Primary School </p> -->
+        <p class="text-center font-bold text-3xl mb-4">Thursday 15th May 2025</p>
+        <p class="text-center font-bold text-3xl mb-4">7:30pm</p>
+        <p class="text-center font-bold text-3xl mb-4">St. John Vianney Church</p>
 
         <div class="px-6">
             <div class="mb-4 text-center">
 
-                <p>The committee will give a report of the last year, information about the defibrillator, and will
-                    discuss the future of the association.</p>
+                <p>The committee will give a report of the last year, information about the defibrillator, and residents will have the chance to ask questions and discuss the association.</p>
                 <p class="font-bold">Also present will be our local councillors who will give a report and answer
                     questions.</p>
             </div>
 
-            <p>All members of the association have access to the equipment <a data-sveltekit-reload href="#equipment">listed<span class="hidden print:inline">&nbsp;on the reverse of this notice</span></a>.</p>
+            <p>All members of the association have access to the equipment <a data-sveltekit-reload href="#equipment" class="underline print:no-underline">listed<span class="hidden print:inline">&nbsp;on the reverse of this notice</span></a>.</p>
             <p class="font-bold">Membership to the association costs £2 a year. You can join and receive your membership
                 card:</p>
-            <ul class="list-outside ml-6 list-disc">
+            <ul class="list-outside ml-6 list-disc mb-2">
                 <li>At the AGM</li>
                 <!-- <li>At the Vale, Nod Rise, Sat 15th June 1:00-3:00pm</li> -->
                 <!-- <li>At the Vale, Nod Rise, Mon 17th June 7:00-9:00pm</li> -->
                 <li>When an association collector visits your house in the next few months.</li>
             </ul>
-<p class="mb-4">We should be able to take <em>cashless</em> payments this year.</p>
-            <p class="text-center font-bold">The association needs new collectors and committee
-                members, please contact us if you are interested in joining.</p>
+<!-- <p class="mb-4">We should be able to take <em>cashless</em> payments this year.</p> -->
+            <p class="text-center font-bold mb-2">The association also needs new collectors and committee
+                members, please contact us if you are interested: <a href="mailto:secretary@mnra.uk" class="underline print:no-underline">secretary@mnra.uk</a></p>
         </div>
+
+<div class="text-center">You can now also sign up to our Email Newsletter<span class="print:hidden">&nbsp;</span><button class="ml-onclick-form print:hidden underline" onclick="ml('show', 'AwCvYn', true)">click to sign up</button><span class="hidden print:inline">, view our website: https://mnra.uk/ to sign up</span>.</div>
     </div>
 
 </div>
+
