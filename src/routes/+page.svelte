@@ -1,15 +1,16 @@
 <script>
     import Agenda from "../components/Agenda.svelte";
+    import QRCode from '@castlenine/svelte-qrcode';
 </script>
 
 <svelte:head>
-  <title>Mount Nod Residents Association</title>
+<title>Mount Nod Residents Association</title>
 </svelte:head>
 
 <div class="mx-auto py-8 px-2 print:py-0 px-0 sm:max-w-3xl print:max-w-none">
     <h1 class="text-center font-bold text-3xl mb-4 print:hidden">MOUNT NOD RESIDENTS’ ASSOCIATION</h1>
     <a name="equipment">
-      <h2 class="text-center font-bold text-lg mb-1">EQUIPMENT LIST</h2>
+      <h2 class="text-center font-bold text-lg mb-1">EQUIPMENT LIST<span class="hidden print:inline">&nbsp;&mdash;&nbsp;please keep this safe</span></h2>
     </a>
     <p class="text-center mb-1">Available for use by all members free of charge on the Mount Nod Estate only</p>
     <p class="text-center mb-3">The number denotes the custodian for the item. These are listed on your membership
@@ -64,7 +65,7 @@
                     <td>13</td>
                 </tr>
                 <tr>
-                    <td>Heavy Duty Hammer Drill - SDS</td>
+                    <td>Heavy Duty SDS Drill</td>
                     <td>8</td>
                 </tr>
                 <tr>
@@ -227,11 +228,13 @@
         </div>
     </div>
 
-    <p class="text-center mt-2 mb-1 font-bold hidden print:block">An up-to-date list is available online: https://mnra.uk/</p>
+
+<p class="text-center font-bold  mt-2">Use responsibly. All risk and liability are assumed by the borrower.</p>
 
     <p class="text-center mt-2">We ask all who use the equipment to treat it as if it was their own and return it
         promptly in a clean condition ready for the next user.</p>
 
+<p class="text-center mt-8 mb-1 font-bold hidden print:block">An up-to-date list is available online: https://mnra.uk/</p>
 
     <div class="page-break mb-16 print:mb-0"></div>
 
@@ -240,33 +243,43 @@
         <h1 class="text-center font-bold text-2xl mb-4">You are invited to:</h1>
         <h2 class="text-center font-bold text-3xl mb-4">MOUNT NOD RESIDENTS’ ASSOCIATION</h2>
         <h2 class="text-center font-bold text-3xl mb-4"><span class="underline">ANNUAL GENERAL MEETING</span></h2>
-        <p class="text-center font-bold text-3xl mb-4">Thursday 15th May 2025</p>
-        <p class="text-center font-bold text-3xl mb-4">7:30pm</p>
-        <p class="text-center font-bold text-3xl mb-4">St. John Vianney Church</p>
+        <p class="text-center font-bold text-3xl mb-4">Thursday 15th May 2025, 7:30pm</p>
+        <!-- <p class="text-center font-bold text-3xl mb-4">7:30pm</p> -->
+        <p class="text-center font-bold text-3xl mb-4">St. John Vianney Church Hall</p>
 
         <div class="px-6">
             <div class="mb-4 text-center">
 
-                <p>The committee will give a report of the last year, information about the defibrillator, and residents will have the chance to ask questions and discuss the association.</p>
+                <p>The committee will give a report of the last year, give information about the defibrillator, elect officers, and residents will have the chance to ask questions and discuss the association.</p>
                 <p class="font-bold">Also present will be our local councillors who will give a report and answer
                     questions.</p>
             </div>
-
+<hr class="mb-4 border-gray-400">
             <p>All members of the association have access to the equipment <a data-sveltekit-reload href="#equipment" class="underline print:no-underline">listed<span class="hidden print:inline">&nbsp;on the reverse of this notice</span></a>.</p>
             <p class="font-bold">Membership to the association costs £2 a year. You can join and receive your membership
                 card:</p>
-            <ul class="list-outside ml-6 list-disc mb-2">
+            <ul class="list-outside ml-6 list-disc mb-4">
                 <li>At the AGM</li>
-                <!-- <li>At the Vale, Nod Rise, Sat 15th June 1:00-3:00pm</li> -->
-                <!-- <li>At the Vale, Nod Rise, Mon 17th June 7:00-9:00pm</li> -->
-                <li>When an association collector visits your house in the next few months.</li>
+                <li>At the Vale, Nod Rise, Sat 17th May 1:00-3:00pm</li>
+                <li>At the Vale, Nod Rise, Mon 19th May 7:00-9:00pm</li>
+                <li>When an association collector visits your house in the next few months. Card payments now accepted!</li>
             </ul>
 <!-- <p class="mb-4">We should be able to take <em>cashless</em> payments this year.</p> -->
-            <p class="text-center font-bold mb-2">The association also needs new collectors and committee
-                members, please contact us if you are interested: <a href="mailto:secretary@mnra.uk" class="underline print:no-underline">secretary@mnra.uk</a></p>
+<hr class="mb-4 border-gray-400">
+
+<div class="grid grid-cols-12 ">
+
+<div class="col-span-12 print:col-span-10 content-center text-center font-bold mb-4 ">We now have an Email Newsletter<span class="print:hidden">&nbsp;</span><button class="ml-onclick-form print:hidden underline" onclick="ml('show', 'AwCvYn', true)">click to sign up</button><span class="hidden print:inline">,<br>view our website: https://mnra.uk/ to sign up</span>.</div>
+<div class="hidden print:block content-center text-center">
+<QRCode data="https://mnra.uk/?utm_source=flyer" width="64" height="64" errorCorrectionLevel="M" />
+</div>
+
+</div>
+
+            <p class="text-center">If you are interested becoming more involved in the association please contact Steven Jones at: <a href="mailto:secretary@mnra.uk" class="underline print:no-underline">secretary@mnra.uk</a></p>
         </div>
 
-<div class="text-center">You can now also sign up to our Email Newsletter<span class="print:hidden">&nbsp;</span><button class="ml-onclick-form print:hidden underline" onclick="ml('show', 'AwCvYn', true)">click to sign up</button><span class="hidden print:inline">, view our website: https://mnra.uk/ to sign up</span>.</div>
+
     </div>
 
 </div>

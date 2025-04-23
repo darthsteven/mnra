@@ -49,7 +49,7 @@ html {
 .equipment td {
   @apply border;
   @apply border-gray-800;
-  @apply py-0.5;
+  @apply py-1;
 }
 @media print {
   .equipment td {
